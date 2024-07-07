@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: #000;
+    color: #ffff;
+}
+
+#f-sec{
+    height: 690px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first img{
+    width: 136%;
+    height: 146%;
+}
+.first p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    padding:80px 80px;
+    margin-left: 100px;
+    color: #C5FF95;
+    /* color: #50D890; */
+    letter-spacing: 3px;
+}
+span{
+    color: #C70039;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin-left: 12%;
+    margin-top: -8%;
+}
+.btn button{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    width: 200px;
+    height: 55px;
+    border-radius: 120px;
+    letter-spacing: 2px;
+    background-color: black;
+    color: #fff;
+    border: solid 0.5px #fff;
+    transition: .5s ease;
+}
+#s-btn{
+    margin-left: 15%;
+}
+.btn button:hover{
+    background-color: #EEEEEE;
+    color: black;
+    border: solid 0.5px #000;
+
+}
+#s-sec{
+    background-color: #E72929;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient( 178.6deg,  #c0392b 11.8%, #c0392b 83.8% );
+    margin: 0 8%;
+    width: 500px;
+    height: 100%;
+}
+.second div{
+    padding: 25%;
+    margin-left: 60%;
+}
+
+
+table tr th{
+    display: flex;
+    justify-content: start;
+}
+th{
+    color: #C1C1C1;
+}
+th,tr,td{
+    padding: 20px 15px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.m-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://i.pinimg.com/originals/a1/ff/a4/a1ffa46a2b3c9fce54c54b94805b6257.jpg);
+    background-size: cover;
+    background-position:  center;
+}
+.m-sec img{
+    margin: 3.6% 3%;
+    width: 30%;
+    height: 80%;
+}
+.m-sec div{
+    margin: 7% 3%;
+}
+.m2-sec{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://wallpaperaccess.com/full/2742175.jpg);
+    background-size: cover;
+    background-position:  center;
+    width: 100%;
+    height: 500px;
+}
+.m2-sec div{
+    margin: 7% 3%;
+}
+.m3-sec{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url(https://wallpapercave.com/wp/wp7173841.jpg);
+    background-size: cover;
+    background-position:  center;
+    width: 100%;
+    height: 500px;
+    /* background-attachment: fixed; */
+}
+.m3-sec div{
+    margin: 7% 3%;
+    color: #fff;
+}
+.m3-sec img{
+    margin: 3.6% 3%;
+    width: 40%;
+    height: 80%;
+}
+.m4-sec{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(https://wallpapercave.com/wp/wp3631255.jpg);
+    background-size: cover;
+    background-position:  center;
+    width: 100%;
+    height: 500px;
+}
+.m4-sec div{
+    margin: 8% 3%;
+}
+
+.m5-sec div{
+    margin: 7% 5%;
+}
+.m5-sec{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(https://wallpapercave.com/wp/wp3631262.jpg);
+    background-size: cover;
+    background-position:  center;
+    width: 100%;
+    height: 500px;
+}
+
+#t-sec h4{
+    font-family: "Cabin", sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    font-variation-settings: 100;
+    letter-spacing: 1.5px;
+}
+#t-sec p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+}
+
+.final{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)), url(https://www.techicy.com/wp-content/uploads/2019/11/Picking-The-Right-PC-Gaming-Headset.jpg);
+    background-size: cover;
+    background-position:  center;
+    width: 100%;
+    height: 500px;
+}
+.final{
+    font-family: "Cabin", sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    font-variation-settings: 100;
+    letter-spacing: 1.5px;
+}
+.final p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.f-div{
+    margin: 10% 3%;
+}
+.div-img{
+    margin-top: 5%;
+}
+
+/* Breakpoints */
+
+
+@media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    #f-sec{
+        height:400px;
+    }
+    .first{
+        height:400px;
+    }
+    .first p{
+        font-size: 45px;
+        margin-left: 5%;
+        margin-top: 8%;
+        padding: 0;
+        letter-spacing: 1px;
+    }
+    .first img{
+        margin-top: 5%;
+        width: 110%;
+        height: 90%;
+    }
+    .btn{
+        margin-top: -10%;
+        margin-left: 5%;
+    }
+    .btn button{
+        font-size: 15px;
+        width: 140px;
+        height: 40px;
+    }
+
+    .m-sec div{
+        width: 430px;
+        height: fit-content;
+        margin-top: 100px;
+        font-weight: 200;
+        font-size: larger;
+        letter-spacing: 0;
+    }
+    .m-sec img{
+        margin-top: 24%;
+        width: 30%;
+        height: 40%;
+    }
+    .m2-sec div{
+        margin-top: 12%;
+        font-size: larger;
+        width: 120%;
+        height: fit-content;
+    }
+    .m2-sec img{
+        margin-top: 8%;
+        width: 100%;
+        height: 70%;
+    }
+    .m3-sec div{
+        margin-top: 12%;
+        width: 500px;
+        height: fit-content;
+    }
+    .m3-sec img{
+        margin-top: 5%;
+    }
+    .m4-sec div{
+        width: 60%;
+        height: fit-content;
+        margin-top: 15%;
+    }
+    .m4-sec img{
+        width: 40%;
+        height: 50%;
+        margin-top: 17%;
+    }
+    .m5-sec div{
+        width: 60%;
+        height: fit-content;
+        margin-top: 17%;
+    }
+    .m5-sec img{
+        width: 50%;
+        height: 50%;
+        margin-top: 15%;
+    }
+    .second{
+        width: 300px;
+        height: 100%;
+        margin: 0;
+    }
+    .second div{
+        padding: 0;
+        margin-left: 0;
+    }
+    .second img{
+        width: 450%;
+        height: 50%;
+        margin-top: 300%;
+        margin-left: 300%;
+    }
+    .final{
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+    }
+    .f-div{
+        width: 800px;
+        height: fit-content;
+        margin-top: 20%
+    }
+    .div-img img{
+        width: 60%;
+        height: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #f-sec{
+        height:280px;
+    }
+    .first{
+        height:280px;
+    }
+    .first p{
+        font-size: xx-large;
+        margin-left: 5%;
+        margin-top: 7%;
+        padding: 0;
+        letter-spacing: 1px;
+    }
+    .first img{
+        margin-top: 5%;
+        width: 110%;
+        height: 90%;
+    }
+    .btn{
+        margin-top: -12%;
+        margin-left: 5%;
+    }
+    .btn button{
+        font-size: x-small;
+        width: 100px;
+        height: 28px;
+    }
+
+    .m-sec div{
+        width: 300px;
+        height: fit-content;
+        margin-top: 50px;
+        font-weight: 200;
+        font-size: small;
+        letter-spacing: 0;
+    }
+    .m-sec img{
+        margin-top: 28%;
+        width: 60%;
+        height: 40%;
+    }
+    .m2-sec div{
+        margin-top: 20%;
+        font-size: small;
+        width: 100%;
+        height: fit-content;
+    }
+    .m2-sec img{
+        margin-top: 15%;
+        width: 100%;
+        height: 70%;
+    }
+    .m3-sec div{
+        margin-top: 20%;
+        width: 300px;
+        height: fit-content;
+    }
+    .m3-sec img{
+        margin-top: 17%;
+    }
+    .m4-sec div{
+        width: 60%;
+        height: fit-content;
+        margin-top: 19%;
+    }
+    .m4-sec img{
+        width: 50%;
+        height: 50%;
+        margin-top: 30%;
+    }
+    .m5-sec div{
+        width: 60%;
+        height: fit-content;
+        margin-top: 25%;
+    }
+    .m5-sec img{
+        width: 50%;
+        height: 50%;
+        margin-top: 30%;
+    }
+    .second{
+        width: 300px;
+        height: 100%;
+        margin: 0 8%;
+    }
+    .second div{
+        padding: 0;
+        margin-left: 0;
+    }
+    .second img{
+        width: 450%;
+        height: 50%;
+        margin-top: 300%;
+        margin-left: 10%;
+    }
+    .final{
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+    }
+    .f-div{
+        width: 800px;
+        height: fit-content;
+        margin-top: 20%
+    }
+    .div-img img{
+        width: 60%;
+        height: 90%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 315px) {
+    body{
+        overflow-x: hidden;
+    }
+    #f-sec{
+        height:400px;
+    }
+    .first{
+        height:400px;
+    }
+    .first p{
+        font-size:28px;
+        margin-left: 5%;
+        margin-top: 28%;
+        height: fit-content;
+        padding: 0;
+        letter-spacing: 1px;
+    }
+    .first img{
+        margin-top:20%;
+        width: 120%;
+        height: 70%;
+    }
+    .btn{
+        margin-top: -40%;
+        margin-left: 5%;
+    }
+    .btn button{
+        font-size: 10px;
+        width: 85px;
+        height: 40px;
+    }
+    .m-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .m-sec div{
+        width: 280px;
+        height: fit-content;
+        font-weight: 200;
+        font-size: smaller;
+        letter-spacing: 0;
+    }
+    .m-sec img{
+        margin-top: 24%;
+        width: 70%;
+        height: 150%;
+    }
+    .m2-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .m2-sec div{
+        margin-top: 12%;
+        font-size: smaller;
+        width: 280px;
+        height: fit-content;
+    }
+    .m2-sec img{
+        margin-top: -15%;
+        width: 100%;
+        height: 70%;
+    }
+    .m3-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .m3-sec div{
+        margin-top: 12%;
+        width: 280px;
+        height: fit-content;
+    }
+    .m3-sec img{
+        margin-top: 15%;
+        width: 100%;
+        height: 200%;
+    }
+    .m4-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .m4-sec div{
+        
+        width: 280px;
+        height: fit-content;
+        margin-top: 15%;
+    }
+    .m4-sec img{
+        width: 70%;
+        height: 100%;
+        margin-top: 17%;
+    }
+    .m5-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .m5-sec div{
+        width: 280px;
+        height: fit-content;
+        margin-top: 7%;
+    }
+    .m5-sec img{
+        width: 50%;
+        height: 50%;
+        margin-top: 15%;
+        margin-left: 25%;
+    }
+    .second{
+        width: 300px;
+        height: 100%;
+        margin: 0;
+    }
+    .second div{
+        padding: 0;
+        margin-left: 0;
+    }
+    .second img{
+        width: 450%;
+        height: 50%;
+        margin-top: 300%;
+        margin-left: 300%;
+    }
+    .final{
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+    }
+    .f-div{
+        width: 800px;
+        height: fit-content;
+        margin-top: 20%
+    }
+    .div-img img{
+        width: 60%;
+        height: 90%;
+    }
+}
+
+@media (max-width:365px){
+    body{
+        overflow-x: hidden;
+    }
+    #f-sec{
+        height:350px;
+    }
+    .first{
+        height:400px;
+    }
+    .first p{
+        font-size: 30px;
+        margin-left: 5%;
+        margin-top: 8%;
+        padding: 0;
+        letter-spacing: 1px;
+    }
+    .first img{
+        margin-top: 5%;
+        width: 110%;
+        height: 60%;
+    }
+    .btn{
+        margin-top: -40%;
+        margin-left: 5%;
+    }
+    .btn button{
+        font-size: 10px;
+        width: 120px;
+        height: 40px;
+    }
+    .m-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .m-sec div{
+        width: 320px;
+        height: fit-content;
+        margin-top: 30px;
+        font-weight: 200;
+        font-size: small;
+        letter-spacing: 0;
+    }
+    .m-sec img{
+        margin-top: 2%;
+        width: 30%;
+        height: 40%;
+        display: none;
+    }
+    .m2-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .m2-sec div{
+        margin-top: 12%;
+        font-size: larger;
+        width: 70%;
+        height: fit-content;
+    }
+    .m2-sec img{
+        margin-top: 8%;
+        width: 100%;
+        height: 70%;
+    }
+    .m3-sec div{
+        margin-top: 12%;
+        width: 500px;
+        height: fit-content;
+    }
+    .m3-sec img{
+        margin-top: 5%;
+    }
+    .m4-sec div{
+        width: 60%;
+        height: fit-content;
+        margin-top: 15%;
+    }
+    .m4-sec img{
+        width: 40%;
+        height: 50%;
+        margin-top: 17%;
+    }
+    .m5-sec div{
+        width: 60%;
+        height: fit-content;
+        margin-top: 17%;
+    }
+    .m5-sec img{
+        width: 50%;
+        height: 50%;
+        margin-top: 15%;
+    }
+    .second{
+        width: 300px;
+        height: 100%;
+        margin: 0;
+    }
+    .second div{
+        padding: 0;
+        margin-left: 0;
+    }
+    .second img{
+        width: 150%;
+        height: 30%;
+        margin-top: 300%;
+        margin-left: 10%;
+    }
+    .final{
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+    }
+    .f-div{
+        width: 800px;
+        height: fit-content;
+        margin-top: 20%
+    }
+    .div-img img{
+        width: 60%;
+        height: 90%;
+    }
+}
